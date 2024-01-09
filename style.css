@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;800&family=Merriweather:wght@300;400;700&family=Open+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&family=Merriweather+Sans:wght@300;400;800&family=Merriweather:wght@300;400;700&family=Open+Sans:wght@400;700;800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    max-width: 1550px;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+}
+/* banner style */
+.banner{ 
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(./resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    border-radius: 15px;
+}
+.banner-inner {
+    padding: 150px 0;
+}
+.banner-h4{
+    color: #ecf5f7;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+   
+}
+.banner-h2{
+    color: #f9f5f5;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+/* end of banner style */
+
+/* stye of sale section */
+.sale-h1{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 88px;
+    font-weight: 700;
+
+}
+.sale-h4{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+.sale-2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.sale-img {
+    height: 500px;
+    text-align: center;
+}
+/* end of sale section */
+
+/* style of midnight party */
+.midnight-party {
+    background-image: url('./resources/night-party.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    display: flex;
+    padding: 40px 120px;
+    display: flex;
+}
+
+.midnight-title{
+    color: #f9f5f5;
+    font-family: 'Merriweather';
+    font-size: 64px;
+    font-weight: 900;
+}
+.description {
+    color: #f9f5f5;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 30px;
+}
+.midnight-inner {
+    text-align: left;
+    width: 60%;
+}
+.midnight-image {
+    text-align: right;
+    margin-top: 40px;
+    width: 40%;
+}
+button.join-now {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #fff0;
+    border: none;
+}
+/* end of midnight party */
+
+
+/* style of venue */
+.venue{
+   text-align: center;
+   font-family: 'Inter';
+   font-size: 32px;
+   font-weight: 600;
+   line-height: 56px;
+   width: 1320px;
+   margin: 0 auto;
+   border-radius: 15px;
+   background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+   padding: 50px 0;
+   margin-bottom: 100px;
+}
+.venue p {
+    margin: 0;
+}
+.red{
+    color: #F00;
+    
+}
+.join-btn{
+    color: #FFF;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* end of venue section */
+
+
+/*Style of offer section */
+.offer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-title, 
+.offer-img,
+.offer-2024 {
+    width: 33.33%;
+}
+h4.offer-h4 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+h2.offer-h2 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    margin: 15px 0;
+}
+.offer-title .description, .offer-2024 .description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    line-height: 28px;
+}
+.offer-img {
+    text-align: center;
+    border: 18px solid #ff0000;
+    border-radius: 50%;
+    height: 370px;
+    width: 370px;
+}
+.offer-img > img {
+    height: 270px;
+    width: 270px;
+    margin-top: 31px;
+}
+.offer-h3 {
+    font-size: 40px;
+    margin: 0;
+}
+.offer-2024 {
+    margin-left: 32px;
+}
+/* end of offer section */
+
+
+/* Best gift section style */
+.gift-h2{
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    margin: 15px 0;
+}
+.gift-h4{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.gift-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 17px;
+    line-height: 28px;
+    margin:20px;
+
+}
+.gift-img-1, .gift-img-2{
+    display: flex;
+    margin: 10px auto;
+}
+/* Best gift section end */
+
+
+/* style of subscribe newsletter */
+.mail-section{
+    margin-top: 45px 0px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 5%;
+}
+.mail-content{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe5e5;
+}
+.mail-photo{
+    display:flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.mail-h3{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 25px 0px;
+    color: #070211;
+    font-weight: bold;
+}
+.mail-p{
+    width: 896px;
+    font-size: 20px;
+    color: #070211;
+    text-align: center;
+    padding-bottom:25px ;
+    margin:auto;
+}
+.mail-form{
+    justify-content:center;
+    align-items: center;
+    padding: 150px;
+}
+
+.mail-input{
+    width: 450px;
+    height: 72px;
+    margin: auto;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 20px;
+    color: #070211;
+    border: none;
+    border-radius: 30px;
+    margin-left:10%;
+}
+.mail-btn{
+    width: 210px;
+    height: 72px;
+    border: 0;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+/* style of subscribe newsletter end */
+
+
+/* style of footer */
+.footer-sec{
+    background-color: #070211;
+    padding: 100px 0px;
+    margin-top: 75px;
+}
+.div-1{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.icon-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 36px;
+}
+.icon-section1{
+    display: block;
+    align-items: center;
+    margin-right: 20px;
+}
+.icon-section a{
+    width: 64px;
+    height: 64px;
+    margin-right: 25px;
+ }
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+}
+.copyright small{
+    color: #FFFFFF;
+    font-size: 20px;
+    align-items: center;
+}
+/* style of footer end*/
